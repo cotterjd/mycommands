@@ -1,0 +1,3 @@
+git checkout -- dist
+git clean -f
+git diff

@@ -1,0 +1,6 @@
+cd ~/Development/www.hoegg.software
+docker stop devc
+docker rm devc
+docker rmi devi
+docker build -t devi .
+docker run --name devc -p 8080:3000 -d devi
