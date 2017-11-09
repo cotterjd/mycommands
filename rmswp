@@ -1,1 +1,1 @@
-dotfind *.swp | xargs rm 
+find . -name "*.swp" -o -name "*.swo" 2>&1 | grep -v "Permission denied" | xargs rm
