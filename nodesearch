@@ -1,1 +1,1 @@
-grep -r $1 . | grep -v node_modules | grep -v .git | grep -v yarn.lock | grep -v package-lock.json | grep -v "/dist"
+grep -r $1 . | grep -v node_modules | grep -v .git | grep -v yarn.lock | grep -v package-lock.json | grep -v "/dist" | grep -v "/scss"
