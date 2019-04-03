@@ -1,3 +1,0 @@
-(cd MgmtApp && sed -i 's/http:\/\/localhost:4467/https:\/\/stg-dynos-api.dynos.io/' .env)
-(cd Dynos.Viewer2 && sed -i 's/http:\/\/localhost:4467/https:\/\/stg-dynos-api.dynos.io/' .env)
-(cd Dynos.Editor2 && sed -i 's/http:\/\/localhost:4467/https:\/\/stg-dynos-api.dynos.io/' .env)
