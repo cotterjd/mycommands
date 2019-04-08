@@ -1,3 +1,4 @@
 (cd ~/Development/dynos/MgmtApp && sed -i 's/https:\/\/stg-apollo.dynos.io\/gql/http:\/\/localhost:4467/' .env)
 (cd ~/Development/dynos/Dynos.Viewer2 && sed -i 's/https:\/\/stg-apollo.dynos.io\/gql/http:\/\/localhost:4467/' .env)
 (cd ~/Development/dynos/Dynos.Editor2 && sed -i 's/https:\/\/stg-apollo.dynos.io\/gql/http:\/\/localhost:4467/' .env)
+(cd ~/Development/dynos/Dynos.Landing && sed -i 's/https:\/\/stg-apollo.dynos.io\/gql/http:\/\/localhost:4467/' create_vars)
