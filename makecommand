@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# must be in same directory as script when running this command 
+
+script=$1
+
+chmod +x $script
+ln -s $(pwd)/$script /home/jordan/bin/$script 
