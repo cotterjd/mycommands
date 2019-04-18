@@ -1,0 +1,6 @@
+#!/bin/bash
+
+message=$1
+
+echo "npm run test:CI | tail -n 5 | head -n 1 | cut -d "," -f1 | grep passed && git commit -m "$message""
+npm run test:CI | tail -n 5 | head -n 1 | cut -d "," -f1 | grep passed && git commit -m "$message"
