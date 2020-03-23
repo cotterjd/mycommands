@@ -5,5 +5,5 @@
 script=$1
 
 chmod +x $script
-rm /home/jordan/bin/$script
-ln -s $(pwd)/$script /home/jordan/bin/$script 
+rm $HOME/bin/$script
+ln -s $(pwd)/$script $HOME/bin/$script 
