@@ -4,6 +4,7 @@ if [[ $branch == "" ]]; then
   echo branch required
   return 1
 else 
-  git branch -D $branch && git fetch origin $branch && git checkout $branch && git pull origin master
+  git branch -D $branch
+  git fetch origin $branch && git checkout $branch && git pull origin master
 fi
 
