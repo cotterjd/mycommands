@@ -1,3 +1,5 @@
+linked in ~/bin
+
 # mycommands
 commands to speed things up
 
