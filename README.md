@@ -1,6 +1,10 @@
 # mycommands
 commands to speed things up
 
+## Getting Started
+`$ git clone git@github.com:cotterjd/mycommands.git`<br>
+`$ export PATH=~/current/directory/mycommands:$PATH`<br>
+
 ### commit
 behaves like `git commit` but runs tests first and only commits if they pass
 
