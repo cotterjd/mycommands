@@ -14,3 +14,9 @@ behaves like `git checkout` but changes branch on multiple projects. Useful in c
 
 ### rootfind
 will search entire system for a file and filter out all "Permission denied" messages. Since it searches the whole file system, this command takes a while
+
+### uselocal
+Comments out prod connection string and uncomments local connection string in env file
+
+### useprod
+opposite of uselocal
