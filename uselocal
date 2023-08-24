@@ -2,5 +2,5 @@
 
 # comments out prod connection string and uncomments local connection string in env file
 
-sed -i '6{/^[^#]/ s/^/# /}' /home/jordancotter/Development/Nutiliti/nutiliti/server/.env
-sed -i '8s/^# //' /home/jordancotter/Development/Nutiliti/nutiliti/server/.env
+sed -i '6{/^[^#]/ s/^/# /}' .env
+sed -i '8s/^# //' .env
